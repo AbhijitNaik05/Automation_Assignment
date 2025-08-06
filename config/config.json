@@ -1,0 +1,16 @@
+{
+  "environments": {
+    "DEV": {
+      "url": " ",
+      "MAX_NUMBER_OF_ATTEMPT" : 3
+    },
+    "QA": {
+      "url": "http://www.automationpractice.pl/",
+      "MAX_NUMBER_OF_ATTEMPT" : 3
+    },
+    "UAT": {
+      "url": " ",
+      "MAX_NUMBER_OF_ATTEMPT":3
+    }
+  }
+}
