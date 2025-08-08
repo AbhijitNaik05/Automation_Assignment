@@ -40,7 +40,7 @@ public class TestBase {
 	public BrowserUtility getInstance() {
 		return homePage;
 	}
-/*	@AfterMethod(description ="Tear Down the browser")
+	@AfterMethod(description ="Tear Down the browser")
 	public void tearDown() {
 		if(isLambdaTest) {
 			LambdaTestUtility.quitSession();
@@ -48,5 +48,5 @@ public class TestBase {
 		else {
 		homePage.getDriver().quit();
 		}
-	} */
+	} 
 }
